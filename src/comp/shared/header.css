@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+    header h2 {
+        margin: auto 0 auto 0;
+    }
+
+    header h2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px 16px 20px;
+}
+
+    nav a:hover {
+        background-color: #282c34;
+        color: #fff;
+    }
