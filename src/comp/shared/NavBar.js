@@ -5,10 +5,7 @@ export default function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <Link to="/page1">Page 1</Link>
-                </li>
-                <li>
-                    <Link to="/page2">Page 2</Link>
+                    <Link to="/atmor/overview">Atmor</Link>
                 </li>
             </ul>
         </nav>
