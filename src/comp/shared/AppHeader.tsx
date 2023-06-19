@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 import './header.css';
 import {Link} from "react-router-dom";
 
-export default function AppHeader() {
+export default function AppHeader(): JSX.Element {
     return(
         <header>
             <h2>

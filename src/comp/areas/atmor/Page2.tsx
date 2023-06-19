@@ -1,4 +1,4 @@
-export default function Page2() {
+export default function Page2(): JSX.Element {
 
     return(
         <div>

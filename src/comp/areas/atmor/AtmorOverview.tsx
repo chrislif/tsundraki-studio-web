@@ -1,4 +1,4 @@
-export default function Overview() {
+export default function Overview(): JSX.Element {
 
     return (
         <div className="App">
