@@ -1,9 +1,6 @@
-import logo from "../../../logo.svg";
-
-export default function Home() {
+export default function Home(): JSX.Element {
     return(
         <div className="App">
-            <img src={logo} className="App-logo" alt="logo" />
             <p>
                 Tsundraki Studio - Under Development
             </p>

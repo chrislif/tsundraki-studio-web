@@ -8,6 +8,29 @@
     border-right: 2px solid white;
 }
 
-.sideContent {
-    padding-left: 10px;
+.sideNav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
+
+    .sideNav li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sideNav a {
+        display: flex;
+        text-decoration: none;
+        background-color: #282c34;
+        color: #fff;
+        padding: 10px;
+    }
+
+        .sideNav a:hover {
+            background-color: #fff;
+            color: black;
+        }

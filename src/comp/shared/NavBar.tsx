@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-export default function NavBar() {
+export default function NavBar(): JSX.Element {
     return(
-        <nav>
+        <nav className="navBar">
             <ul>
                 <li>
                     <Link to="/atmor/overview">Atmor</Link>

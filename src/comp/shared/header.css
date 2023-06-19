@@ -7,6 +7,7 @@ header {
     height: 50px;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
     header h2 {
@@ -18,18 +19,18 @@ header {
         color: black;
     }
 
-nav ul {
+.navBar ul {
     list-style-type: none;
     display: flex;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 20px 20px 16px 20px;
-}
-
-    nav a:hover {
-        background-color: #282c34;
-        color: #fff;
+    .navBar a {
+        text-decoration: none;
+        color: black;
+        padding: 20px 20px 16px 20px;
     }
+
+        .navBar a:hover {
+            background-color: #282c34;
+            color: #fff;
+        }
